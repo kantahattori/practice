@@ -1,0 +1,8 @@
+{% extends 'cms/index.html' %}
+{% block title %}
+top
+{% endblock title %}
+{% block content %}
+<p>toppage</p>
+<a href="{% url 'cms:list' id= %}">listA</a>
+{% endblock content %}
